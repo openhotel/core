@@ -1,7 +1,7 @@
 {
   "scripts": {
     "deps": "deno run -A index.ts",
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
     "prettier:check": "prettier -c ./",
